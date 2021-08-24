@@ -1,0 +1,65 @@
+{
+  "name": "react-bacon-ipsum",
+  "version": "1.0.17",
+  "description": "A React App, providing reference examples of using hooks to abstract operational action, context to share state across a family of components, and a hooked pub-sub of a context, to share state across families of components",
+  "author": {
+    "email": "matt.that@gmail.com",
+    "name": "Matt That",
+    "url": "https://matt-that.me"
+  },
+  "contributors": [{
+      "email": "matt.that@gmail.com",
+      "name": "Matt That",
+      "url": "https://matt-that.me"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattthat/react-bacon-ipsum.git"
+  },
+  "keywords": [
+    "javascript","react", "es6-javascript"
+  ],
+  "license": {
+    "type": "Apache-2.0",
+    "url": "https://spdx.org/licenses/Apache-2.0"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^4.5.0",
+    "@material-ui/core": "^4.12.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
